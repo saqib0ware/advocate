@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Advocate Syed Zaffar Qadri &amp; Associates — Tax Consultants &amp; Legal Services, Srinagar</title>
+<meta name="description" content="Advocate Syed Zaffar Qadri and Associates — tax consultation and legal services from Chamber No. 70 at the Hon'ble High Court of Jammu &amp; Kashmir and Ladakh, Srinagar.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='47' fill='%2314181f'/%3E%3Ccircle cx='50' cy='50' r='44' fill='none' stroke='%23b8934c' stroke-width='2.5'/%3E%3Ctext x='50' y='61' font-family='Georgia,serif' font-size='28' fill='%23b8934c' text-anchor='middle'%3ESZQ%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#14181f;
+    --ink-soft:#1b212b;
+    --ink-line:rgba(247,244,236,0.12);
+    --paper:#f7f4ec;
+    --paper-soft:#eee6d2;
+    --paper-line:#ddd0ac;
+    --brass:#b3893f;
+    --brass-light:#d9b876;
+    --maroon:#7a2e2e;
+    --maroon-light:#984848;
+    --text-dark:#21242b;
+    --text-muted:#6b6a60;
+    --text-paper:#f3efe4;
+    --text-paper-muted:#b9b2a0;
+    --radius:3px;
+    --max-w:1180px;
+    --nav-h:78px;
+    --ease:cubic-bezier(.22,.61,.36,1);
+
+    --c-gold:#c9973e;
+    --c-maroon:#a3403f;
+    --c-teal:#2f8577;
+    --c-terracotta:#c96b3f;
+    --c-blue:#3f6f9c;
+    --c-green:#3f9463;
+  }
+
+  *,*::before,*::after{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--text-dark);
+    font-family:'Inter',sans-serif;
+    font-size:16px;
+    line-height:1.7;
+    -webkit-font-smoothing:antialiased;
+  }
+  img,svg{display:block;max-width:100%;}
+  a{color:inherit;text-decoration:none;}
+  ul{margin:0;padding:0;list-style:none;}
+  h1,h2,h3,h4{margin:0;font-family:'Fraunces',serif;font-weight:600;letter-spacing:-0.01em;}
+  p{margin:0;}
+  button{font:inherit;cursor:pointer;}
+  input,textarea,select{font:inherit;}
+
+  .wrap{max-width:var(--max-w);margin:0 auto;padding:0 1.75rem;}
+  .section{padding:clamp(4rem,8vw,7.5rem) 0;}
+  .section-ink{background:var(--ink);color:var(--text-paper);}
+  .section-soft{background:var(--paper-soft);}
+
+  .eyebrow{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:.72rem;
+    letter-spacing:.16em;
+    text-transform:uppercase;
+    color:var(--brass);
+    display:flex;
+    align-items:center;
+    gap:.6rem;
+    margin-bottom:1rem;
+  }
+  .eyebrow::before{content:"";width:22px;height:1px;background:var(--brass);display:inline-block;}
+
+  .btn{
+    display:inline-flex;
+    align-items:center;
+    gap:.55rem;
+    padding:.85rem 1.5rem;
+    border-radius:var(--radius);
+    font-family:'Inter',sans-serif;
+    font-weight:600;
+    font-size:.92rem;
+    letter-spacing:.01em;
+    border:1px solid transparent;
+    transition:transform .35s var(--ease), background .35s var(--ease), border-color .35s var(--ease), color .35s var(--ease);
+  }
+  .btn svg{width:17px;height:17px;flex-shrink:0;}
+  .btn-brass{background:var(--brass);color:var(--ink);}
+  .btn-brass:hover{background:var(--brass-light);transform:translateY(-2px);}
+  .btn-outline{border-color:var(--ink-line);color:var(--text-paper);}
+  .btn-outline:hover{border-color:var(--brass);color:var(--brass-light);transform:translateY(-2px);}
+  .btn-maroon{background:var(--maroon);color:var(--text-paper);}
+  .btn-maroon:hover{background:var(--maroon-light);transform:translateY(-2px);}
+  .btn-ink-outline{border-color:rgba(33,36,43,.25);color:var(--text-dark);}
+  .btn-ink-outline:hover{border-color:var(--maroon);color:var(--maroon);transform:translateY(-2px);}
+
+  a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible, select:focus-visible{
+    outline:2px solid var(--brass);
+    outline-offset:3px;
+  }
+
+  /* ---------- Seal mark ---------- */
+  .seal{transform-origin:50% 50%;}
+  .seal-ring{transform-origin:150px 150px;animation:spin 90s linear infinite;}
+  @keyframes spin{to{transform:rotate(360deg);}}
+
+  /* ---------- Nav ---------- */
+  .nav{
+    position:fixed;top:0;left:0;right:0;z-index:100;
+    height:var(--nav-h);
+    display:flex;align-items:center;
+    background:rgba(20,24,31,.86);
+    backdrop-filter:blur(10px);
+    border-bottom:1px solid var(--ink-line);
+  }
+  .nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:1rem;width:100%;}
+  .brand{display:flex;align-items:center;gap:.75rem;color:var(--text-paper);}
+  .brand-mark{width:42px;height:42px;flex-shrink:0;}
+  .brand-text{font-family:'Fraunces',serif;font-size:1.02rem;line-height:1.15;}
+  .brand-text small{display:block;font-family:'IBM Plex Mono',monospace;font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--text-paper-muted);margin-top:.28rem;}
+
+  .nav-links{display:flex;align-items:center;gap:2.1rem;}
+  .nav-links a{
+    font-size:.88rem;color:var(--text-paper-muted);position:relative;padding:.3rem 0;
+    transition:color .3s var(--ease);
+  }
+  .nav-links a::after{content:"";position:absolute;left:0;bottom:0;width:0;height:1px;background:var(--brass);transition:width .3s var(--ease);}
+  .nav-links a:hover{color:var(--text-paper);}
+  .nav-links a:hover::after{width:100%;}
+
+  .nav-cta{display:flex;align-items:center;gap:.9rem;}
+  .nav-call{display:flex;align-items:center;gap:.5rem;color:var(--text-paper);font-family:'IBM Plex Mono',monospace;font-size:.82rem;}
+  .nav-call svg{width:16px;height:16px;color:var(--brass);}
+
+  .nav-toggle{display:none;flex-direction:column;justify-content:center;gap:5px;width:34px;height:34px;background:none;border:none;padding:0;}
+  .nav-toggle span{display:block;width:100%;height:2px;background:var(--text-paper);transition:transform .3s var(--ease), opacity .3s var(--ease);}
+  .nav-toggle.is-active span:nth-child(1){transform:translateY(7px) rotate(45deg);}
+  .nav-toggle.is-active span:nth-child(2){opacity:0;}
+  .nav-toggle.is-active span:nth-child(3){transform:translateY(-7px) rotate(-45deg);}
+
+  /* ---------- Hero ---------- */
+  .hero{
+    position:relative;overflow:hidden;
+    background:var(--ink);color:var(--text-paper);
+    padding-top:calc(var(--nav-h) + clamp(3.5rem,8vw,6rem));
+    padding-bottom:clamp(4rem,9vw,7rem);
+  }
+  .hero::before{
+    content:"";position:absolute;inset:0;
+    background:
+      radial-gradient(ellipse 60% 50% at 82% 15%, rgba(201,151,62,.20), transparent 60%),
+      radial-gradient(ellipse 50% 45% at 6% 95%, rgba(47,133,119,.18), transparent 60%),
+      radial-gradient(ellipse 40% 35% at 30% 100%, rgba(163,64,63,.15), transparent 60%);
+    pointer-events:none;
+  }
+  .hero .wrap{position:relative;display:grid;grid-template-columns:1.15fr .85fr;gap:2rem;align-items:center;}
+  .hero-copy{position:relative;z-index:2;}
+  .hero h1{font-size:clamp(2.4rem,4.6vw,3.9rem);line-height:1.06;color:var(--text-paper);max-width:14ch;}
+  .hero-sub{
+    font-family:'Fraunces',serif;font-style:italic;font-weight:500;
+    font-size:clamp(1.15rem,1.8vw,1.5rem);color:var(--brass-light);
+    margin-top:1.1rem;
+  }
+  .hero-desc{max-width:46ch;color:var(--text-paper-muted);font-size:1.02rem;margin-top:1.4rem;}
+  .hero-actions{display:flex;flex-wrap:wrap;gap:1rem;margin-top:2.4rem;}
+  .hero-seal-wrap{position:relative;display:flex;align-items:center;justify-content:center;z-index:1;}
+  .hero-seal-wrap svg{width:min(340px,100%);height:auto;opacity:.92;}
+
+  .hero-strip{
+    margin-top:clamp(3rem,6vw,4.5rem);
+    display:grid;grid-template-columns:repeat(3,1fr);
+    border-top:1px solid var(--ink-line);
+    padding-top:1.6rem;
+  }
+  .hero-strip div{border-left:1px solid var(--ink-line);padding-left:1.1rem;}
+  .hero-strip div:first-child{border-left:none;padding-left:0;}
+  .hero-strip .num{font-family:'IBM Plex Mono',monospace;color:var(--brass);font-size:.78rem;letter-spacing:.06em;}
+  .hero-strip .lab{margin-top:.35rem;font-size:.9rem;color:var(--text-paper-muted);}
+
+  /* ---------- About ---------- */
+  .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(2.5rem,6vw,5rem);align-items:start;}
+  .about h2{font-size:clamp(1.9rem,3.2vw,2.6rem);line-height:1.15;max-width:16ch;}
+  .about-copy p{color:var(--text-muted);margin-top:1.2rem;font-size:1.02rem;}
+  .about-copy p:first-of-type{margin-top:1.6rem;}
+  .chip-list{display:flex;flex-direction:column;gap:0;margin-top:.5rem;}
+  .chip{
+    display:flex;align-items:center;gap:1rem;
+    padding:1.3rem 0;border-top:1px solid var(--paper-line);
+  }
+  .chip:last-child{border-bottom:1px solid var(--paper-line);}
+  .chip .icon-badge{width:34px;height:34px;}
+  .chip .icon-badge svg{width:16px;height:16px;}
+  .chip .t{font-family:'Fraunces',serif;font-weight:500;font-size:1.05rem;}
+
+  /* ---------- Practice / Schedules ---------- */
+  .sched-head{text-align:center;max-width:640px;margin:0 auto clamp(3rem,6vw,4rem);}
+  .sched-head h2{font-size:clamp(1.9rem,3.2vw,2.6rem);color:var(--text-paper);}
+  .sched-head .eyebrow{justify-content:center;}
+  .sched-head .eyebrow::before{display:none;}
+  .sched-head p{color:var(--text-paper-muted);margin-top:1rem;font-size:1.02rem;}
+
+  .sched-grid{display:grid;grid-template-columns:1fr 1fr;gap:2.25rem;}
+  .sched-card{
+    background:var(--ink-soft);
+    border:1px solid var(--ink-line);
+    border-radius:var(--radius);
+    padding:clamp(1.75rem,3vw,2.5rem);
+  }
+  .sched-card-head{display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid var(--ink-line);padding-bottom:1.1rem;margin-bottom:.4rem;}
+  .sched-card-head .tag{font-family:'IBM Plex Mono',monospace;font-size:.72rem;letter-spacing:.12em;color:var(--c-gold);text-transform:uppercase;}
+  .sched-card-head h3{font-size:1.35rem;color:var(--text-paper);margin-top:.4rem;}
+  .sched-card-head .icon{width:30px;height:30px;color:var(--c-gold);flex-shrink:0;}
+  .sched-card-legal .sched-card-head .tag{color:var(--c-maroon);}
+  .sched-card-legal .sched-card-head .icon{color:var(--c-maroon);}
+
+  .sched-grid-items{
+    display:grid;grid-template-columns:1fr 1fr;gap:.15rem .6rem;
+    margin-top:.5rem;
+  }
+  .sched-item{
+    display:flex;align-items:center;gap:.8rem;
+    padding:.75rem .5rem;border-radius:8px;
+    transition:background .3s var(--ease), transform .3s var(--ease);
+  }
+  .sched-item:hover{background:rgba(247,244,236,.05);transform:translateX(2px);}
+  .sched-item .t{font-size:.92rem;color:var(--text-paper);line-height:1.35;}
+  .icon-badge{
+    width:38px;height:38px;border-radius:50%;flex-shrink:0;
+    display:flex;align-items:center;justify-content:center;
+    transition:transform .3s var(--ease);
+  }
+  .icon-badge svg{width:18px;height:18px;stroke:currentColor;}
+  .sched-item:hover .icon-badge{transform:scale(1.08);}
+  .badge-gold{background:rgba(201,151,62,.18);color:var(--c-gold);}
+  .badge-maroon{background:rgba(163,64,63,.18);color:var(--c-maroon);}
+  .badge-teal{background:rgba(47,133,119,.2);color:var(--c-teal);}
+  .badge-terracotta{background:rgba(201,107,63,.18);color:var(--c-terracotta);}
+  .badge-blue{background:rgba(63,111,156,.2);color:var(--c-blue);}
+  .badge-green{background:rgba(63,148,99,.2);color:var(--c-green);}
+
+  /* ---------- Approach ---------- */
+  .approach-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(1.75rem,4vw,2.5rem);margin-top:clamp(2.5rem,5vw,3.5rem);}
+  .approach-card{border-top:2px solid var(--c-gold);padding-top:1.5rem;}
+  .approach-card .icon{width:32px;height:32px;color:var(--c-gold);margin-bottom:1.1rem;}
+  .approach-card h3{font-size:1.2rem;}
+  .approach-card p{color:var(--text-muted);margin-top:.75rem;font-size:.98rem;}
+  .approach-card-teal{border-top-color:var(--c-teal);}
+  .approach-card-teal .icon{color:var(--c-teal);}
+  .approach-card-maroon{border-top-color:var(--c-maroon);}
+  .approach-card-maroon .icon{color:var(--c-maroon);}
+  .approach-top{max-width:640px;}
+  .approach-top h2{font-size:clamp(1.9rem,3.2vw,2.6rem);}
+  .approach-top p{color:var(--text-muted);margin-top:1rem;font-size:1.02rem;}
+
+  /* ---------- Offices ---------- */
+  .office-grid{display:grid;grid-template-columns:1fr 1fr;gap:2rem;margin-top:clamp(2.5rem,5vw,3.5rem);}
+  .office-card{
+    background:var(--ink);color:var(--text-paper);
+    border-radius:var(--radius);
+    padding:clamp(2rem,3.5vw,2.75rem);
+    position:relative;overflow:hidden;
+  }
+  .office-card::before{content:"";position:absolute;top:0;left:0;width:100%;height:4px;background:var(--c-gold);}
+  .office-card-teal::before{background:var(--c-teal);}
+  .office-card .tag{font-family:'IBM Plex Mono',monospace;font-size:.72rem;letter-spacing:.14em;color:var(--c-gold);text-transform:uppercase;}
+  .office-card-teal .tag{color:var(--c-teal);}
+  .office-card h3{font-size:1.5rem;margin-top:.7rem;}
+  .office-card address{font-style:normal;color:var(--text-paper-muted);margin-top:.9rem;font-size:.98rem;line-height:1.6;}
+  .office-card .dir-link{
+    display:inline-flex;align-items:center;gap:.5rem;margin-top:1.5rem;
+    font-size:.88rem;color:var(--c-gold);font-weight:600;
+    border-bottom:1px solid transparent;
+  }
+  .office-card-teal .dir-link{color:#5fb3a3;}
+  .office-card .dir-link svg{width:15px;height:15px;transition:transform .3s var(--ease);}
+  .office-card .dir-link:hover svg{transform:translate(3px,-3px);}
+
+  .approach-top-wrap{display:flex;justify-content:space-between;align-items:flex-end;gap:2rem;flex-wrap:wrap;}
+
+  /* ---------- Contact ---------- */
+  .contact-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(2.5rem,6vw,5rem);margin-top:clamp(2.5rem,5vw,3.5rem);}
+  .contact-block h2{font-size:clamp(1.9rem,3.2vw,2.6rem);max-width:14ch;}
+  .contact-block > p{color:var(--text-muted);margin-top:1rem;max-width:42ch;}
+  .contact-lines{margin-top:2rem;display:flex;flex-direction:column;gap:1.3rem;}
+  .contact-line{display:flex;align-items:center;gap:1rem;}
+  .contact-line .icon{
+    width:42px;height:42px;flex-shrink:0;border-radius:50%;
+    display:flex;align-items:center;justify-content:center;
+    background:rgba(201,151,62,.14);border:1px solid var(--paper-line);color:var(--c-gold);
+  }
+  .contact-line .icon svg{width:19px;height:19px;}
+  .contact-line.is-alt .icon{background:rgba(63,111,156,.14);color:var(--c-blue);}
+  .contact-line.is-whatsapp .icon{background:rgba(63,148,99,.16);color:var(--c-green);}
+  .contact-line .num{font-family:'IBM Plex Mono',monospace;font-size:1.02rem;font-weight:500;}
+  .contact-line .lab{font-size:.82rem;color:var(--text-muted);margin-top:.15rem;}
+
+  .form-card{
+    background:var(--ink);color:var(--text-paper);
+    border-radius:var(--radius);padding:clamp(2rem,3.5vw,2.75rem);
+  }
+  .form-card h3{font-size:1.3rem;color:var(--text-paper);}
+  .form-card > p{color:var(--text-paper-muted);font-size:.92rem;margin-top:.6rem;}
+  .field{margin-top:1.35rem;}
+  .field label{display:block;font-family:'IBM Plex Mono',monospace;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--text-paper-muted);margin-bottom:.55rem;}
+  .field input,.field select,.field textarea{
+    width:100%;background:var(--ink-soft);border:1px solid var(--ink-line);
+    color:var(--text-paper);padding:.8rem .9rem;border-radius:var(--radius);
+    transition:border-color .3s var(--ease);
+  }
+  .field input::placeholder,.field textarea::placeholder{color:#5f6570;}
+  .field input:focus,.field select:focus,.field textarea:focus{border-color:var(--brass);}
+  .field textarea{resize:vertical;min-height:90px;}
+  .form-card .btn{width:100%;justify-content:center;margin-top:1.75rem;}
+  .form-note{font-size:.78rem;color:var(--text-paper-muted);margin-top:.9rem;line-height:1.55;}
+
+  /* ---------- Footer ---------- */
+  .footer{background:var(--ink);color:var(--text-paper-muted);padding:clamp(3rem,6vw,4rem) 0 2rem;}
+  .footer-top{display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr;gap:2.5rem;padding-bottom:2.5rem;border-bottom:1px solid var(--ink-line);}
+  .footer-brand{display:flex;align-items:center;gap:.75rem;color:var(--text-paper);}
+  .footer-brand .brand-mark{width:38px;height:38px;}
+  .footer-brand-text{font-family:'Fraunces',serif;font-size:.98rem;line-height:1.3;}
+  .footer p.tagline{margin-top:1.1rem;font-size:.88rem;max-width:34ch;}
+  .footer h4{font-family:'IBM Plex Mono',monospace;font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--text-paper);margin-bottom:1rem;}
+  .footer ul li{margin-bottom:.65rem;font-size:.9rem;}
+  .footer ul li a:hover{color:var(--brass-light);}
+  .footer-bottom{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem;padding-top:1.5rem;font-size:.8rem;}
+
+  /* ---------- Reveal animation ---------- */
+  .reveal-hidden{opacity:0;transform:translateY(22px);}
+  .reveal{transition:opacity .8s var(--ease), transform .8s var(--ease);}
+  .reveal-visible{opacity:1 !important;transform:none !important;}
+
+  @media (prefers-reduced-motion:reduce){
+    html{scroll-behavior:auto;}
+    .seal-ring{animation:none;}
+    .reveal, .reveal-hidden{transition:none;opacity:1;transform:none;}
+  }
+
+  /* ---------- Responsive ---------- */
+  @media (max-width:980px){
+    .nav-links{
+      position:fixed;top:var(--nav-h);left:0;right:0;bottom:0;
+      background:var(--ink);flex-direction:column;justify-content:flex-start;
+      padding:2.5rem 1.75rem;gap:1.5rem;
+      transform:translateX(100%);transition:transform .4s var(--ease);
+    }
+    .nav-links.is-open{transform:translateX(0);}
+    .nav-links a{font-size:1.1rem;}
+    .nav-toggle{display:flex;}
+    .nav-call span{display:none;}
+
+    .hero .wrap{grid-template-columns:1fr;}
+    .hero-seal-wrap{order:-1;margin-bottom:-1rem;}
+    .hero-seal-wrap svg{width:180px;}
+    .hero-strip{grid-template-columns:1fr 1fr;row-gap:1.4rem;}
+    .hero-strip div:nth-child(2){border-left:1px solid var(--ink-line);padding-left:1.1rem;}
+    .hero-strip div:nth-child(3){border-left:none;padding-left:0;grid-column:1 / -1;padding-top:1.4rem;border-top:1px solid var(--ink-line);}
+
+    .about-grid,.sched-grid,.office-grid,.contact-grid{grid-template-columns:1fr;}
+    .approach-grid{grid-template-columns:1fr;}
+    .footer-top{grid-template-columns:1fr 1fr;row-gap:2.25rem;}
+    .footer-brand{grid-column:1 / -1;}
+    .approach-top-wrap{align-items:flex-start;}
+  }
+
+  @media (max-width:560px){
+    .footer-top{grid-template-columns:1fr;}
+    .hero-actions .btn{flex:1;justify-content:center;}
+    .sched-grid-items{grid-template-columns:1fr;}
+  }
+</style>
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="nav">
+  <div class="wrap">
+    <a href="#home" class="brand">
+      <svg class="brand-mark" viewBox="0 0 100 100" aria-hidden="true">
+        <circle cx="50" cy="50" r="47" fill="none" stroke="#b3893f" stroke-width="1.5"/>
+        <circle cx="50" cy="50" r="41" fill="none" stroke="#b3893f" stroke-width="1"/>
+        <text x="50" y="59" font-family="Fraunces,serif" font-size="26" font-weight="600" fill="#b3893f" text-anchor="middle">SZQ</text>
+      </svg>
+      <span class="brand-text">Syed Zaffar Qadri<small>&amp; Associates</small></span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#services">Practice Areas</a>
+      <a href="#approach">Approach</a>
+      <a href="#offices">Offices</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="nav-cta">
+      <a class="nav-call" href="tel:+919596171766">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L14 13l5 2v4a2 2 0 0 1-2 2C9.5 21 3 14.5 3 6a2 2 0 0 1 1-2Z"/></svg>
+        <span>95961 71766</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home">
+    <div class="wrap">
+      <div class="hero-copy">
+        <p class="eyebrow">Chamber No. 70 &middot; High Court of J&amp;K &amp; Ladakh</p>
+        <h1 class="reveal">Advocate Syed Zaffar Qadri &amp; Associates</h1>
+        <p class="hero-sub reveal">Tax Consultants &amp; Legal Services, Srinagar</p>
+        <p class="hero-desc reveal">One chamber, two disciplines &mdash; GST and income-tax practice alongside criminal, civil, and property litigation, advised directly from Chamber No. 70 at the Hon'ble High Court of Jammu &amp; Kashmir and Ladakh.</p>
+        <div class="hero-actions reveal">
+          <a href="tel:+919596171766" class="btn btn-brass">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L14 13l5 2v4a2 2 0 0 1-2 2C9.5 21 3 14.5 3 6a2 2 0 0 1 1-2Z"/></svg>
+            Call the Chamber
+          </a>
+          <a href="#services" class="btn btn-outline">
+            View Practice Areas
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+
+        <div class="hero-strip">
+          <div>
+            <p class="num">01</p>
+            <p class="lab">Tax consultation &amp; litigation, one chamber</p>
+          </div>
+          <div>
+            <p class="num">02</p>
+            <p class="lab">Seat at the High Court of J&amp;K &amp; Ladakh</p>
+          </div>
+          <div>
+            <p class="num">03</p>
+            <p class="lab">Two offices &mdash; Srinagar &amp; Chadoora</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-seal-wrap" aria-hidden="true">
+        <svg class="seal" viewBox="0 0 300 300">
+          <g class="seal-ring">
+            <path id="ringPath" d="M 150,30 A 120,120 0 1,1 149.9,30" fill="none"/>
+            <text font-family="IBM Plex Mono, monospace" font-size="10.5" letter-spacing="3" fill="#b3893f">
+              <textPath href="#ringPath" startOffset="0%">CHAMBER NO. 70 &#8226; HIGH COURT OF J&amp;K AND LADAKH &#8226; SRINAGAR &#8226; </textPath>
+            </text>
+            <circle cx="150" cy="150" r="120" fill="none" stroke="#b3893f" stroke-width="1" opacity=".55"/>
+          </g>
+          <circle cx="150" cy="150" r="96" fill="none" stroke="#b3893f" stroke-width="1" opacity=".55"/>
+          <circle cx="150" cy="150" r="90" fill="none" stroke="#7a2e2e" stroke-width="1.5" opacity=".75"/>
+          <text x="150" y="163" font-family="Fraunces, serif" font-weight="600" font-size="44" fill="#f3efe4" text-anchor="middle">SZQ</text>
+          <text x="150" y="185" font-family="IBM Plex Mono, monospace" font-size="9" letter-spacing="2" fill="#b3893f" text-anchor="middle">EST. CHAMBER</text>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section" id="about">
+    <div class="wrap about-grid">
+      <div class="reveal">
+        <p class="eyebrow">About the Chamber</p>
+        <h2>Tax counsel and courtroom advocacy, under one roof</h2>
+      </div>
+      <div>
+        <div class="about-copy reveal">
+          <p>Advocate Syed Zaffar Qadri and Associates is a combined tax-consultancy and legal chamber in Srinagar, seated at Chamber No. 70, Hon'ble High Court of J&amp;K &amp; Ladakh.</p>
+          <p>Clients bring GST notices and registrations to the same desk where they'd bring a property dispute or a criminal matter &mdash; one point of contact across accounting and advocacy.</p>
+        </div>
+        <div class="chip-list reveal">
+          <div class="chip"><span class="icon-badge badge-gold"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 21V9l8-6 8 6v12"/><path d="M9 21v-6h6v6"/></svg></span><span class="t">Chamber No. 70, High Court of J&amp;K &amp; Ladakh</span></div>
+          <div class="chip"><span class="icon-badge badge-teal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 21c4.97 0 9-4.03 9-9a9 9 0 0 0-9-9M12 21c-4.97 0-9-4.03-9-9a9 9 0 0 1 9-9M12 21V3"/></svg></span><span class="t">Two practices, one desk &mdash; tax &amp; law</span></div>
+          <div class="chip"><span class="icon-badge badge-maroon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M21 10c0 6-9 12-9 12s-9-6-9-12a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg></span><span class="t">Two offices &mdash; Srinagar &amp; Chadoora</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PRACTICE AREAS ============ -->
+  <section class="section section-ink" id="services">
+    <div class="wrap">
+      <div class="sched-head reveal">
+        <p class="eyebrow">Practice Areas</p>
+        <h2>Two schedules, one chamber</h2>
+        <p>Filings and registrations on one side, courtroom matters on the other &mdash; handled by the same chamber so nothing gets lost between the accountant and the advocate.</p>
+      </div>
+
+      <div class="sched-grid">
+        <div class="sched-card reveal">
+          <div class="sched-card-head">
+            <div>
+              <p class="tag">Schedule A</p>
+              <h3>Tax Consultation</h3>
+            </div>
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 3h9l3 3v15H6z"/><path d="M15 3v3h3M9 12h6M9 15h6M9 9h3"/></svg>
+          </div>
+          <ul class="sched-grid-items">
+            <li class="sched-item"><span class="icon-badge badge-gold"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M6 3h8l4 4v14H6z"/><path d="M9 12h6M9 16h6"/></svg></span><span class="t">GST and Income Tax Returns</span></li>
+            <li class="sched-item"><span class="icon-badge badge-teal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="10" cy="10" r="6"/><path d="M14.5 14.5 20 20"/></svg></span><span class="t">Income Tax Audit &amp; Assessments</span></li>
+            <li class="sched-item"><span class="icon-badge badge-terracotta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M6 2h12v20l-3-2-3 2-3-2-3 2z"/><path d="M9 7h6M9 11h6M9 15h4"/></svg></span><span class="t">TDS Returns &amp; Project Reports</span></li>
+            <li class="sched-item"><span class="icon-badge badge-maroon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 3v12m0 0-4-4m4 4 4-4"/><path d="M4 21h16"/></svg></span><span class="t">GST Appeals and Assessments</span></li>
+            <li class="sched-item"><span class="icon-badge badge-blue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="6" width="18" height="12" rx="1.5"/><circle cx="8" cy="12" r="2"/><path d="M13 10h5M13 14h5"/></svg></span><span class="t">GST, GeM &amp; PAN Card Registrations</span></li>
+            <li class="sched-item"><span class="icon-badge badge-gold"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 8 5 3h14l1 5"/><path d="M4 8v13h16V8"/><path d="M9 21v-6h6v6"/></svg></span><span class="t">Shops &amp; Establishment and Udyam Registrations</span></li>
+            <li class="sched-item"><span class="icon-badge badge-teal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="8" cy="15" r="3"/><path d="M10.5 12.5 20 3M17 6l2 2M14 9l2 2"/></svg></span><span class="t">DSC Token Registrations</span></li>
+            <li class="sched-item"><span class="icon-badge badge-terracotta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="5" y="3" width="14" height="18" rx="1.5"/><path d="M8 7h8M8 11h2M12 11h2M16 11h2M8 15h2M12 15h2M16 15h2"/></svg></span><span class="t">Accounting Support &amp; Tender Filings</span></li>
+          </ul>
+        </div>
+
+        <div class="sched-card sched-card-legal reveal">
+          <div class="sched-card-head">
+            <div>
+              <p class="tag">Schedule B</p>
+              <h3>Legal Services</h3>
+            </div>
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3v18M5 7l3.5-2L12 7M5 7l-2.5 6a3 3 0 0 0 5 0L5 7ZM19 7l-3.5-2L12 7M19 7l2.5 6a3 3 0 0 1-5 0L19 7ZM8 21h8"/></svg>
+          </div>
+          <ul class="sched-grid-items">
+            <li class="sched-item"><span class="icon-badge badge-maroon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 3v14M6 6l3-1.5L12 6M6 6l-2.5 5a2.5 2.5 0 0 0 4.5 0zM18 6l-3-1.5L12 6M18 6l2.5 5a2.5 2.5 0 0 1-4.5 0z"/><path d="M8 21h8"/></svg></span><span class="t">Criminal Cases</span></li>
+            <li class="sched-item"><span class="icon-badge badge-blue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="7" cy="8" r="3"/><circle cx="17" cy="8" r="3"/><path d="M2 20c0-3 2-5 5-5s5 2 5 5M12 20c0-3 2-5 5-5s5 2 5 5"/></svg></span><span class="t">Civil Cases</span></li>
+            <li class="sched-item"><span class="icon-badge badge-gold"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 3v12m0 0-4-4m4 4 4-4"/><path d="M4 21h16"/></svg></span><span class="t">GST Petitions &amp; Appeals</span></li>
+            <li class="sched-item"><span class="icon-badge badge-teal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 11 12 4l8 7"/><path d="M6 10v10h12V10"/><path d="M10 20v-6h4v6"/></svg></span><span class="t">Property &amp; Contract Disputes</span></li>
+            <li class="sched-item"><span class="icon-badge badge-terracotta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="8" width="18" height="12" rx="1.5"/><path d="M9 8V6a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2"/><path d="M3 13h18"/></svg></span><span class="t">All Other Legal Services</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ APPROACH ============ -->
+  <section class="section" id="approach">
+    <div class="wrap">
+      <div class="approach-top reveal">
+        <p class="eyebrow">Approach</p>
+        <h2>How the chamber works</h2>
+        <p>A small chamber run on direct access &mdash; clients reach the advocate and the tax desk on the same two numbers, not a routed switchboard.</p>
+      </div>
+
+      <div class="approach-grid">
+        <div class="approach-card reveal">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 21V9l8-6 8 6v12"/><path d="M9 21v-6h6v6"/></svg>
+          <h3>Chamber-based practice</h3>
+          <p>Advised directly from Chamber No. 70 at the High Court of J&amp;K &amp; Ladakh, not routed through a call centre.</p>
+        </div>
+        <div class="approach-card approach-card-teal reveal">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21c4.97 0 9-4.03 9-9a9 9 0 0 0-9-9M12 21c-4.97 0-9-4.03-9-9a9 9 0 0 1 9-9M12 21V3"/></svg>
+          <h3>Two disciplines, one desk</h3>
+          <p>Tax filings and litigation handled by the same chamber, so nothing gets lost between the accountant and the advocate.</p>
+        </div>
+        <div class="approach-card approach-card-maroon reveal">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 10c0 6-9 12-9 12s-9-6-9-12a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+          <h3>Two offices, one contact</h3>
+          <p>Reachable at the head office in Srinagar or the branch in Chadoora, on the same two phone numbers.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ OFFICES ============ -->
+  <section class="section section-soft" id="offices">
+    <div class="wrap">
+      <div class="approach-top-wrap reveal">
+        <div class="approach-top">
+          <p class="eyebrow">Offices</p>
+          <h2>Where to find the chamber</h2>
+        </div>
+      </div>
+
+      <div class="office-grid">
+        <div class="office-card reveal">
+          <p class="tag">Head Office</p>
+          <h3>Srinagar</h3>
+          <address>Opposite District Court,<br>Mominabad, Srinagar</address>
+          <a class="dir-link" href="https://www.google.com/maps/search/?api=1&query=District+Court+Mominabad+Srinagar" target="_blank" rel="noopener">
+            Get directions
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+        </div>
+        <div class="office-card office-card-teal reveal">
+          <p class="tag">Branch Office</p>
+          <h3>Chadoora</h3>
+          <address>Paul Complex,<br>Opposite R&amp;B Department, Chadoora</address>
+          <a class="dir-link" href="https://www.google.com/maps/search/?api=1&query=Paul+Complex+Chadoora" target="_blank" rel="noopener">
+            Get directions
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section" id="contact">
+    <div class="wrap contact-grid">
+      <div class="contact-block reveal">
+        <p class="eyebrow">Contact</p>
+        <h2>Speak to the chamber directly</h2>
+        <p>Call for an appointment, or send the details below and open a WhatsApp message pre-filled to the chamber.</p>
+
+        <div class="contact-lines">
+          <a class="contact-line" href="tel:+919596171766">
+            <span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L14 13l5 2v4a2 2 0 0 1-2 2C9.5 21 3 14.5 3 6a2 2 0 0 1 1-2Z"/></svg></span>
+            <span><span class="num">95961 71766</span><br><span class="lab">Primary line</span></span>
+          </a>
+          <a class="contact-line is-alt" href="tel:+919149459655">
+            <span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L14 13l5 2v4a2 2 0 0 1-2 2C9.5 21 3 14.5 3 6a2 2 0 0 1 1-2Z"/></svg></span>
+            <span><span class="num">91494 59655</span><br><span class="lab">Alternate line</span></span>
+          </a>
+          <a class="contact-line is-whatsapp" href="https://wa.me/919596171766" target="_blank" rel="noopener">
+            <span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 12a8 8 0 1 1-3.8-6.8L20 4l-1.1 3.9A7.96 7.96 0 0 1 20 12Z"/><path d="M8.5 9.5c.3 2.5 2.5 4.7 5 5"/></svg></span>
+            <span><span class="num">WhatsApp the chamber</span><br><span class="lab">Fastest for a quick query</span></span>
+          </a>
+        </div>
+      </div>
+
+      <div class="form-card reveal">
+        <h3>Request a callback</h3>
+        <p>This opens WhatsApp with your details filled in &mdash; nothing is sent until you tap send there.</p>
+        <form id="callback-form">
+          <div class="field">
+            <label for="cb-name">Name</label>
+            <input id="cb-name" type="text" placeholder="Your full name" required>
+          </div>
+          <div class="field">
+            <label for="cb-phone">Phone number</label>
+            <input id="cb-phone" type="tel" placeholder="10-digit mobile number" required>
+          </div>
+          <div class="field">
+            <label for="cb-topic">Matter</label>
+            <select id="cb-topic">
+              <option>Tax Consultation</option>
+              <option>Legal Matter</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="cb-note">Brief note (optional)</label>
+            <textarea id="cb-note" placeholder="One or two lines about your query"></textarea>
+          </div>
+          <button type="submit" class="btn btn-brass">
+            Send via WhatsApp
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </button>
+        </form>
+        <p class="form-note">By continuing you'll be taken to WhatsApp with a message pre-filled to the chamber's primary line.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand-col">
+        <a href="#home" class="footer-brand">
+          <svg class="brand-mark" viewBox="0 0 100 100" aria-hidden="true">
+            <circle cx="50" cy="50" r="47" fill="none" stroke="#b3893f" stroke-width="1.5"/>
+            <circle cx="50" cy="50" r="41" fill="none" stroke="#b3893f" stroke-width="1"/>
+            <text x="50" y="59" font-family="Fraunces,serif" font-size="26" font-weight="600" fill="#b3893f" text-anchor="middle">SZQ</text>
+          </svg>
+          <span class="footer-brand-text">Advocate Syed Zaffar Qadri<br>&amp; Associates</span>
+        </a>
+        <p class="tagline">Tax consultation and legal services from Chamber No. 70, Hon'ble High Court of Jammu &amp; Kashmir and Ladakh, Srinagar.</p>
+      </div>
+      <div>
+        <h4>Chamber</h4>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Practice Areas</a></li>
+          <li><a href="#approach">Approach</a></li>
+          <li><a href="#offices">Offices</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+919596171766">95961 71766</a></li>
+          <li><a href="tel:+919149459655">91494 59655</a></li>
+          <li><a href="https://wa.me/919596171766" target="_blank" rel="noopener">WhatsApp</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Offices</h4>
+        <ul>
+          <li>Opposite District Court, Mominabad, Srinagar</li>
+          <li>Paul Complex, Opposite R&amp;B Dept., Chadoora</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span id="year"></span> Advocate Syed Zaffar Qadri &amp; Associates</span>
+      <span>Chamber No. 70 &middot; High Court of J&amp;K &amp; Ladakh</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    // Mobile nav toggle
+    var toggle = document.getElementById('navToggle');
+    var menu = document.getElementById('navLinks');
+    toggle.addEventListener('click', function () {
+      var isOpen = menu.classList.toggle('is-open');
+      toggle.classList.toggle('is-active');
+      toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    });
+    menu.querySelectorAll('a').forEach(function (link) {
+      link.addEventListener('click', function () {
+        menu.classList.remove('is-open');
+        toggle.classList.remove('is-active');
+        toggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+
+    // Scroll reveal (skips entirely if reduced motion is preferred)
+    var prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var revealEls = document.querySelectorAll('.reveal');
+    if (!prefersReduced && 'IntersectionObserver' in window) {
+      revealEls.forEach(function (el) { el.classList.add('reveal-hidden'); });
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('reveal-visible');
+            io.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
+      revealEls.forEach(function (el) { io.observe(el); });
+    }
+
+    // Footer year
+    var yearEl = document.getElementById('year');
+    if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+    // Callback form -> WhatsApp
+    var form = document.getElementById('callback-form');
+    if (form) {
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        var name = document.getElementById('cb-name').value.trim();
+        var phone = document.getElementById('cb-phone').value.trim();
+        var topic = document.getElementById('cb-topic').value;
+        var note = document.getElementById('cb-note').value.trim();
+
+        var lines = [
+          'Hello, I would like to request a callback.',
+          'Name: ' + name,
+          'Phone: ' + phone,
+          'Matter: ' + topic
+        ];
+        if (note) lines.push('Note: ' + note);
+
+        var text = encodeURIComponent(lines.join('\n'));
+        window.open('https://wa.me/919596171766?text=' + text, '_blank');
+      });
+    }
+  });
+</script>
+
+</body>
+</html>
